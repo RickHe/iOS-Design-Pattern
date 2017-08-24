@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Adapter"
+      name = "Adapter">
+      <FileRef
+         location = "group:Adapter.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Strategy"
       name = "Strategy">
       <FileRef
