@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93B69091D7EF3480001990A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B68FF1D7EF3480001990A /* AppDelegate.m */; };
+		F93B690A1D7EF3480001990A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93B69001D7EF3480001990A /* Assets.xcassets */; };
+		F93B690B1D7EF3480001990A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93B69011D7EF3480001990A /* LaunchScreen.storyboard */; };
+		F93B690C1D7EF3480001990A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93B69031D7EF3480001990A /* Main.storyboard */; };
+		F93B690D1D7EF3480001990A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F93B69051D7EF3480001990A /* Info.plist */; };
+		F93B690E1D7EF3480001990A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69061D7EF3480001990A /* main.m */; };
+		F93B690F1D7EF3480001990A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69081D7EF3480001990A /* ViewController.m */; };
+		F93B69131D7EF36C0001990A /* BaseAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69121D7EF36C0001990A /* BaseAttack.m */; };
+		F93B69161D7EF38B0001990A /* SwordAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69151D7EF38B0001990A /* SwordAttack.m */; };
+		F93B69191D7EF3A00001990A /* MagicFireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69181D7EF3A00001990A /* MagicFireAttack.m */; };
+		F93B691C1D7EF3B80001990A /* LightningAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B691B1D7EF3B80001990A /* LightningAttack.m */; };
+		F93B691F1D7EF3E10001990A /* AttackHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B691E1D7EF3E10001990A /* AttackHandle.m */; };
+		F93B69221D7EF4B20001990A /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69211D7EF4B20001990A /* Avatar.m */; };
+		F93B69251D7EF5240001990A /* MetalArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69241D7EF5240001990A /* MetalArmor.m */; };
+		F93B69281D7EF5890001990A /* CrystalShield.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69271D7EF5890001990A /* CrystalShield.m */; };
+		F93B692C1D7EFB2D0001990A /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B692B1D7EFB2D0001990A /* Handler.m */; };
+		F93B692F1D7EFB500001990A /* ConcreteHandle1.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B692E1D7EFB500001990A /* ConcreteHandle1.m */; };
+		F93B69321D7EFB5E0001990A /* ConcreteHandle2.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69311D7EFB5E0001990A /* ConcreteHandle2.m */; };
+		F93B69361D7EFE8F0001990A /* Approval.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69351D7EFE8F0001990A /* Approval.m */; };
+		F93B69391D7EFEC10001990A /* MoneyApproval.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69381D7EFEC10001990A /* MoneyApproval.m */; };
+		F93B693C1D7EFEDD0001990A /* LeaveApproval.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B693B1D7EFEDD0001990A /* LeaveApproval.m */; };
+		F93B693F1D7EFEF00001990A /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B693E1D7EFEF00001990A /* Manager.m */; };
+		F93B69421D7EFF120001990A /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69411D7EFF120001990A /* Boss.m */; };
+		F93B69451D7EFF240001990A /* DirectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F93B69441D7EFF240001990A /* DirectManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F93B68C61D7EEFA90001990A /* Chain of Responsibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chain of Responsibility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93B68FE1D7EF3480001990A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F93B68FF1D7EF3480001990A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F93B69001D7EF3480001990A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F93B69021D7EF3480001990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93B69041D7EF3480001990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93B69051D7EF3480001990A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93B69061D7EF3480001990A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F93B69071D7EF3480001990A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F93B69081D7EF3480001990A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F93B69111D7EF36C0001990A /* BaseAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAttack.h; sourceTree = "<group>"; };
+		F93B69121D7EF36C0001990A /* BaseAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAttack.m; sourceTree = "<group>"; };
+		F93B69141D7EF38B0001990A /* SwordAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwordAttack.h; sourceTree = "<group>"; };
+		F93B69151D7EF38B0001990A /* SwordAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwordAttack.m; sourceTree = "<group>"; };
+		F93B69171D7EF3A00001990A /* MagicFireAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicFireAttack.h; sourceTree = "<group>"; };
+		F93B69181D7EF3A00001990A /* MagicFireAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicFireAttack.m; sourceTree = "<group>"; };
+		F93B691A1D7EF3B80001990A /* LightningAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningAttack.h; sourceTree = "<group>"; };
+		F93B691B1D7EF3B80001990A /* LightningAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightningAttack.m; sourceTree = "<group>"; };
+		F93B691D1D7EF3E10001990A /* AttackHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackHandle.h; sourceTree = "<group>"; };
+		F93B691E1D7EF3E10001990A /* AttackHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackHandle.m; sourceTree = "<group>"; };
+		F93B69201D7EF4B20001990A /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		F93B69211D7EF4B20001990A /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+		F93B69231D7EF5240001990A /* MetalArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalArmor.h; sourceTree = "<group>"; };
+		F93B69241D7EF5240001990A /* MetalArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalArmor.m; sourceTree = "<group>"; };
+		F93B69261D7EF5890001990A /* CrystalShield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrystalShield.h; sourceTree = "<group>"; };
+		F93B69271D7EF5890001990A /* CrystalShield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrystalShield.m; sourceTree = "<group>"; };
+		F93B692A1D7EFB2D0001990A /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		F93B692B1D7EFB2D0001990A /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		F93B692D1D7EFB500001990A /* ConcreteHandle1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteHandle1.h; sourceTree = "<group>"; };
+		F93B692E1D7EFB500001990A /* ConcreteHandle1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteHandle1.m; sourceTree = "<group>"; };
+		F93B69301D7EFB5E0001990A /* ConcreteHandle2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteHandle2.h; sourceTree = "<group>"; };
+		F93B69311D7EFB5E0001990A /* ConcreteHandle2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteHandle2.m; sourceTree = "<group>"; };
+		F93B69341D7EFE8F0001990A /* Approval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Approval.h; sourceTree = "<group>"; };
+		F93B69351D7EFE8F0001990A /* Approval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Approval.m; sourceTree = "<group>"; };
+		F93B69371D7EFEC10001990A /* MoneyApproval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyApproval.h; sourceTree = "<group>"; };
+		F93B69381D7EFEC10001990A /* MoneyApproval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyApproval.m; sourceTree = "<group>"; };
+		F93B693A1D7EFEDD0001990A /* LeaveApproval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveApproval.h; sourceTree = "<group>"; };
+		F93B693B1D7EFEDD0001990A /* LeaveApproval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveApproval.m; sourceTree = "<group>"; };
+		F93B693D1D7EFEF00001990A /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		F93B693E1D7EFEF00001990A /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		F93B69401D7EFF120001990A /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		F93B69411D7EFF120001990A /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		F93B69431D7EFF240001990A /* DirectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectManager.h; sourceTree = "<group>"; };
+		F93B69441D7EFF240001990A /* DirectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93B68C31D7EEFA90001990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93B68BD1D7EEFA90001990A = {
+			isa = PBXGroup;
+			children = (
+				F93B68FD1D7EF3480001990A /* Chain of Responsibility */,
+				F93B68C71D7EEFA90001990A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93B68C71D7EEFA90001990A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93B68C61D7EEFA90001990A /* Chain of Responsibility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93B68FD1D7EF3480001990A /* Chain of Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				F93B69331D7EFE580001990A /* Approval */,
+				F93B69291D7EFAFA0001990A /* Base */,
+				F93B69101D7EF3500001990A /* Game */,
+				F93B68FE1D7EF3480001990A /* AppDelegate.h */,
+				F93B68FF1D7EF3480001990A /* AppDelegate.m */,
+				F93B69001D7EF3480001990A /* Assets.xcassets */,
+				F93B69011D7EF3480001990A /* LaunchScreen.storyboard */,
+				F93B69031D7EF3480001990A /* Main.storyboard */,
+				F93B69051D7EF3480001990A /* Info.plist */,
+				F93B69061D7EF3480001990A /* main.m */,
+				F93B69071D7EF3480001990A /* ViewController.h */,
+				F93B69081D7EF3480001990A /* ViewController.m */,
+			);
+			path = "Chain of Responsibility";
+			sourceTree = "<group>";
+		};
+		F93B69101D7EF3500001990A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F93B69111D7EF36C0001990A /* BaseAttack.h */,
+				F93B69121D7EF36C0001990A /* BaseAttack.m */,
+				F93B69141D7EF38B0001990A /* SwordAttack.h */,
+				F93B69151D7EF38B0001990A /* SwordAttack.m */,
+				F93B69171D7EF3A00001990A /* MagicFireAttack.h */,
+				F93B69181D7EF3A00001990A /* MagicFireAttack.m */,
+				F93B691A1D7EF3B80001990A /* LightningAttack.h */,
+				F93B691B1D7EF3B80001990A /* LightningAttack.m */,
+				F93B691D1D7EF3E10001990A /* AttackHandle.h */,
+				F93B691E1D7EF3E10001990A /* AttackHandle.m */,
+				F93B69201D7EF4B20001990A /* Avatar.h */,
+				F93B69211D7EF4B20001990A /* Avatar.m */,
+				F93B69231D7EF5240001990A /* MetalArmor.h */,
+				F93B69241D7EF5240001990A /* MetalArmor.m */,
+				F93B69261D7EF5890001990A /* CrystalShield.h */,
+				F93B69271D7EF5890001990A /* CrystalShield.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		F93B69291D7EFAFA0001990A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F93B692A1D7EFB2D0001990A /* Handler.h */,
+				F93B692B1D7EFB2D0001990A /* Handler.m */,
+				F93B692D1D7EFB500001990A /* ConcreteHandle1.h */,
+				F93B692E1D7EFB500001990A /* ConcreteHandle1.m */,
+				F93B69301D7EFB5E0001990A /* ConcreteHandle2.h */,
+				F93B69311D7EFB5E0001990A /* ConcreteHandle2.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F93B69331D7EFE580001990A /* Approval */ = {
+			isa = PBXGroup;
+			children = (
+				F93B69341D7EFE8F0001990A /* Approval.h */,
+				F93B69351D7EFE8F0001990A /* Approval.m */,
+				F93B69371D7EFEC10001990A /* MoneyApproval.h */,
+				F93B69381D7EFEC10001990A /* MoneyApproval.m */,
+				F93B693A1D7EFEDD0001990A /* LeaveApproval.h */,
+				F93B693B1D7EFEDD0001990A /* LeaveApproval.m */,
+				F93B693D1D7EFEF00001990A /* Manager.h */,
+				F93B693E1D7EFEF00001990A /* Manager.m */,
+				F93B69401D7EFF120001990A /* Boss.h */,
+				F93B69411D7EFF120001990A /* Boss.m */,
+				F93B69431D7EFF240001990A /* DirectManager.h */,
+				F93B69441D7EFF240001990A /* DirectManager.m */,
+			);
+			name = Approval;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93B68C51D7EEFA90001990A /* Chain of Responsibility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93B68F31D7EEFA90001990A /* Build configuration list for PBXNativeTarget "Chain of Responsibility" */;
+			buildPhases = (
+				F93B68C21D7EEFA90001990A /* Sources */,
+				F93B68C31D7EEFA90001990A /* Frameworks */,
+				F93B68C41D7EEFA90001990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chain of Responsibility";
+			productName = "Chain of Responsibility";
+			productReference = F93B68C61D7EEFA90001990A /* Chain of Responsibility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93B68BE1D7EEFA90001990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "何米颖大天才";
+				TargetAttributes = {
+					F93B68C51D7EEFA90001990A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F93B68C11D7EEFA90001990A /* Build configuration list for PBXProject "Chain of Responsibility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93B68BD1D7EEFA90001990A;
+			productRefGroup = F93B68C71D7EEFA90001990A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93B68C51D7EEFA90001990A /* Chain of Responsibility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93B68C41D7EEFA90001990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93B690D1D7EF3480001990A /* Info.plist in Resources */,
+				F93B690C1D7EF3480001990A /* Main.storyboard in Resources */,
+				F93B690A1D7EF3480001990A /* Assets.xcassets in Resources */,
+				F93B690B1D7EF3480001990A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93B68C21D7EEFA90001990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93B693C1D7EFEDD0001990A /* LeaveApproval.m in Sources */,
+				F93B69221D7EF4B20001990A /* Avatar.m in Sources */,
+				F93B692F1D7EFB500001990A /* ConcreteHandle1.m in Sources */,
+				F93B690F1D7EF3480001990A /* ViewController.m in Sources */,
+				F93B690E1D7EF3480001990A /* main.m in Sources */,
+				F93B69131D7EF36C0001990A /* BaseAttack.m in Sources */,
+				F93B69091D7EF3480001990A /* AppDelegate.m in Sources */,
+				F93B693F1D7EFEF00001990A /* Manager.m in Sources */,
+				F93B69161D7EF38B0001990A /* SwordAttack.m in Sources */,
+				F93B69391D7EFEC10001990A /* MoneyApproval.m in Sources */,
+				F93B69421D7EFF120001990A /* Boss.m in Sources */,
+				F93B692C1D7EFB2D0001990A /* Handler.m in Sources */,
+				F93B691F1D7EF3E10001990A /* AttackHandle.m in Sources */,
+				F93B691C1D7EF3B80001990A /* LightningAttack.m in Sources */,
+				F93B69281D7EF5890001990A /* CrystalShield.m in Sources */,
+				F93B69191D7EF3A00001990A /* MagicFireAttack.m in Sources */,
+				F93B69451D7EFF240001990A /* DirectManager.m in Sources */,
+				F93B69361D7EFE8F0001990A /* Approval.m in Sources */,
+				F93B69251D7EF5240001990A /* MetalArmor.m in Sources */,
+				F93B69321D7EFB5E0001990A /* ConcreteHandle2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F93B69011D7EF3480001990A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93B69021D7EF3480001990A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F93B69031D7EF3480001990A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93B69041D7EF3480001990A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93B68F11D7EEFA90001990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F93B68F21D7EEFA90001990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93B68F41D7EEFA90001990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chain of Responsibility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tchmy.Chain-of-Responsibility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F93B68F51D7EEFA90001990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chain of Responsibility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tchmy.Chain-of-Responsibility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93B68C11D7EEFA90001990A /* Build configuration list for PBXProject "Chain of Responsibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93B68F11D7EEFA90001990A /* Debug */,
+				F93B68F21D7EEFA90001990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93B68F31D7EEFA90001990A /* Build configuration list for PBXNativeTarget "Chain of Responsibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93B68F41D7EEFA90001990A /* Debug */,
+				F93B68F51D7EEFA90001990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93B68BE1D7EEFA90001990A /* Project object */;
+}
