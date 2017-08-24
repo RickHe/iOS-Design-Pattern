@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Decorator"
+      name = "Decorator">
+      <FileRef
+         location = "group:Decorator.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Iterator"
       name = "Iterator">
       <FileRef
