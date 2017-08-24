@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Memento"
+      name = "Memento">
+      <FileRef
+         location = "group:Memento.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Command"
       name = "Command">
       <FileRef
