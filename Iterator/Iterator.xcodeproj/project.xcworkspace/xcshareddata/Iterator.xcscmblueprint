@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9E5A6E9E5CF0432F1A0C46C3D9FEF8AD55AD8C3C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9E5A6E9E5CF0432F1A0C46C3D9FEF8AD55AD8C3C" : 9223372036854775807,
+    "3D84E86A201C9267B79B84719D54F442DBFC7431" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8ECE872-BA80-44B1-81D9-5353D770B6E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9E5A6E9E5CF0432F1A0C46C3D9FEF8AD55AD8C3C" : "Iterator\/",
+    "3D84E86A201C9267B79B84719D54F442DBFC7431" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Iterator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Iterator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RickHe\/iOS-Design-Pattern.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D84E86A201C9267B79B84719D54F442DBFC7431"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RickHe\/Iterator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E5A6E9E5CF0432F1A0C46C3D9FEF8AD55AD8C3C"
+    }
+  ]
+}
