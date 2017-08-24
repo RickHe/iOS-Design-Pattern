@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Command"
+      name = "Command">
+      <FileRef
+         location = "group:Command.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:ChainofResponsibility"
       name = "ChainofResponsibility">
       <FileRef
